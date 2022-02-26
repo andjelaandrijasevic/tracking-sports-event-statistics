@@ -1,0 +1,29 @@
+﻿<Window x:Class="NBA.Igrac"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Igrac" Height="365" Width="300" >
+    <Grid>
+        <Label Content="Visina:" Height="26" HorizontalAlignment="Left" Margin="-1,6,0,0" Name="lblVisina" VerticalAlignment="Top" Width="98" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="177,9,0,0" Name="txtVisina" VerticalAlignment="Top" Width="96" Visibility="Visible" IsReadOnly="True" />
+        <Label Content="Godine:" Height="24" HorizontalAlignment="Left" Margin="-1,33,0,0" Name="lblGodine" VerticalAlignment="Top" Width="95" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="177,37,0,0" Name="txtGodine" VerticalAlignment="Top" Width="96" IsReadOnly="True" />
+        <Label Content="Pozicija:" Height="28" HorizontalAlignment="Left" Margin="-1,59,0,0" Name="lblPozicija" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="177,64,0,0" Name="txtPozicija" VerticalAlignment="Top" Width="96" IsReadOnly="True" />
+        <Label Content="Tim:" HorizontalAlignment="Left" Margin="1,88,0,209" Name="lblTim" Width="42" />
+        <Label Content="Ukupno poena:" Height="27" HorizontalAlignment="Left" Margin="1,117,0,0" Name="lblUkupnoPoena" VerticalAlignment="Top" Width="101" />
+        <Label Content="Odigrano utakmica:" Height="27" HorizontalAlignment="Left" Margin="1,145,0,0" Name="lblOdigranoUtakmica" VerticalAlignment="Top" Width="118" />
+        <Label Content="Poeni po utakmici:" Height="28" HorizontalAlignment="Left" Margin="0,177,0,0" Name="lblPoeniUtakm" VerticalAlignment="Top" Width="111" />
+        <Label Content="Faulovi:" Height="31" HorizontalAlignment="Left" Margin="-1,235,0,0" Name="lblFaulovi" VerticalAlignment="Top" Width="104" />
+        <Label Content="Skokovi:" Height="28" HorizontalAlignment="Left" Margin="-1,264,0,0" Name="lblSkokovi" VerticalAlignment="Top" Width="98" />
+        <Label Content="Blokade:" Height="34" HorizontalAlignment="Left" Margin="0,291,0,0" Name="lblBlokade" VerticalAlignment="Top" Width="169" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="176,148,0,0" Name="txtOdigranoUtakm" VerticalAlignment="Top" Width="96" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="176,180,0,0" Name="txtPoeniUtakmica" VerticalAlignment="Top" Width="96" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="176,209,0,0" Name="txtUkradeneLopte" VerticalAlignment="Top" Width="96" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="176,238,0,0" Name="txtFaulovi" VerticalAlignment="Top" Width="96" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="176,266,0,0" Name="txtSkokovi" VerticalAlignment="Top" Width="96" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="176,294,0,0" Name="txtBlokade" VerticalAlignment="Top" Width="96" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="176,120,0,0" Name="txtPoeni" VerticalAlignment="Top" Width="96" />
+        <Label Content="Ukradene lopte:" Height="28" HorizontalAlignment="Left" Margin="0,206,0,0" Name="lblUkradeneLopte" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="177,91,0,0" Name="txtTim" VerticalAlignment="Top" Width="96" />
+    </Grid>
+</Window>

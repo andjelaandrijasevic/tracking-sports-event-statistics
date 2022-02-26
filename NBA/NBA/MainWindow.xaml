@@ -1,0 +1,26 @@
+﻿<Window x:Class="NBA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Statistika utakmica" MinWidth="810" MaxWidth="810" MinHeight="481" MaxHeight="481" Closed="Window_Closed" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="450" d:DesignWidth="810" SizeToContent="WidthAndHeight">
+    <Grid Height="444">
+        <TabControl Height="183" HorizontalAlignment="Left" Margin="0,12,0,0" Name="tabControl1" VerticalAlignment="Top" Width="444" >
+            <TabItem Header="Prethodne utakmice" Name="tabItem1">
+                <ListBox Height="126" Name="lbPrethodneUtakmice" Width="437" SelectionChanged="lbPrethodneUtakmice_SelectionChanged" BorderThickness="0" />
+            </TabItem>
+            <TabItem Header="Naredne utakmice" Name="tabItem2">
+                <ListBox Height="132" Name="lbNaredneUtakmice" Width="432">
+                </ListBox>
+            </TabItem>
+        </TabControl>
+        <Label Content="Tim:" Height="28" HorizontalAlignment="Left" Margin="12,201,0,0" Name="lblTim" VerticalAlignment="Top" />
+        <Label Content="Ime igrača:" Height="35" HorizontalAlignment="Left" Margin="12,253,0,0" Name="lblIgrac" VerticalAlignment="Top" VerticalContentAlignment="Center" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,224,0,0" Name="txtTim" VerticalAlignment="Top" Width="108" TextChanged="txtTim_TextChanged" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,279,0,0" Name="txtIgracIme" VerticalAlignment="Top" Width="108" TextChanged="txtIgrac_TextChanged" />
+        <Button Content="Pretraži" Height="23" HorizontalAlignment="Left" Margin="12,376,0,0" Name="button1" VerticalAlignment="Top" Width="64" Click="button1_Click" />
+        <ListBox Height="231" HorizontalAlignment="Left" Margin="128,201,0,0" Name="lbPretraga" VerticalAlignment="Top" Width="316" SelectionChanged="lbPretraga_SelectionChanged" />
+        <Label Content="Top 20 najlboljih strijelaca lige" Height="28" HorizontalAlignment="Left" Margin="450,0,0,0" Name="label1" VerticalAlignment="Top" Width="203" />
+        <Label Content="Prezime igrača:" HorizontalAlignment="Left" Margin="10,308,0,101" Name="label2" VerticalContentAlignment="Center" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,0,0,88" Name="txTgracPrezime" VerticalAlignment="Bottom" Width="108" TextChanged="txTgracPrezime_TextChanged" />
+        <ListBox Height="398" HorizontalAlignment="Left" Margin="450,34,0,0" Name="listBox1" VerticalAlignment="Top" Width="326" />
+    </Grid>
+</Window>
